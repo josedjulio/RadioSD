@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-center>
+        Iglesia Sembradores<br>de Dios
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="fondo">
+
+  <img src="assets/imgs/RS.png" style="max-width:100%;height:auto;">
+  
+  <audio  id="reproductor">
+        <source src="http://streamingv2.shoutcast.com/iglesembradores" type="audio/mpeg">
+  </audio>
+  
+ <!--
+  <button ion-button (click)="startAudio()">
+    stream
+  </button> <br>
+    <button ion-button icon (click)="audioplay()">
+      <ion-icon name="play"></ion-icon>
+    </button> <br>
+    <button ion-button>
+      play
+       
+    </button> <br><br>
+-->
+    <a href="#" id="player">
+      
+        <div id="con-play" class="animated infinite pulse">
+            <img src="assets/imgs/play.png" width="100">
+        </div>
+      
+    </a>
+    
+    
+    <div class="botones">
+      <a href="https://www.facebook.com/iglesembradores"><img src="assets/imgs/fb.png" width="60"></a>
+      <a href="https://www.instagram.com/sembradoresdedios"><img src="assets/imgs/ig.png" width="60"></a>
+      <!--
+      <a href=""><img src="assets/imgs/yt.png" width="60"></a>
+      <br>
+      <a href="https://api.whatsapp.com/send?phone=573183858183"><img src="assets/imgs/wa.png" width="60"></a>
+      <a href="https://twitter.com/iglesembradores"><img src="assets/imgs/tw.png" width="60"></a>
+      <a href=""><img src="assets/imgs/gp.png" width="60"></a>
+      -->
+    </div>    
+</ion-content>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "643471955505",
+    "firebase_url": "https://radiosd-android.firebaseio.com",
+    "project_id": "radiosd-android",
+    "storage_bucket": "radiosd-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643471955505:android:f4109ed4080507b8",
+        "android_client_info": {
+          "package_name": "iglesiasembradoresdedios.audiovisuales.ionic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643471955505-gaqco60euf7iped5vbf27dqmf15hn9c2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbl5_PqIxNQk8juq0c3gVmQq8sv6kyFbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

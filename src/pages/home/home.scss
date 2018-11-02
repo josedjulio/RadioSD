@@ -1,0 +1,36 @@
+page-home{
+    p{
+        color:#0836a9;
+        text-size-adjust: 20px;
+    }
+}
+.fondo{
+    background: color($colors,primary);
+    background-size: cover;
+    text-align: center;
+    }
+
+    ion-header{
+        .toolbar{
+            position: relative;
+            .toolbar-background{
+                background:#f2f4ff;
+            }
+        .toolbar-title{
+            color:#0836a9;
+            }
+        }
+    }
+
+    .botones{
+        margin-top: 60px;
+        /*position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 30px;
+        z-index: 50%;
+        margin-top: 20px; */       
+    }
+
+    
+   
